@@ -16,7 +16,8 @@ public class TelevisionController {
 
     @GetMapping("/get4k")
     public Television getOtherTelevision(){
-        return new Television(1L, "4K", "50", "e500", "Samsung");
+        return new Television(2L, "4K", "50", "e500", "Samsung");
     }
+
 
 }
